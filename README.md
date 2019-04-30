@@ -24,3 +24,14 @@ const useInputs = init => {
   ];
 };
 ```
+used like this: 
+```js
+const [state, onChange] = useInputs({
+    //all input fields + their key
+    name: "nm",
+    age: "age",
+    ...
+  });
+...
+ <Input onChange={onChange("name")} value={state.name} />
+```
