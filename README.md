@@ -1,5 +1,4 @@
 # cool-hooks
-carefully crafted react hooks
 
 ## use inputs
 #### easy way to collect the data from many inputs at once without having to set up a state for all of them
